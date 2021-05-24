@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6AB4959-4BFA-4B28-8D9D-5F8E4D8E1367}</ProjectGuid>
+    <ProjectGuid>{DF7F5600-645F-45CE-92D6-C940CE55EAB1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Negocio</RootNamespace>
@@ -41,15 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NegocioSucursal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dao\Dao.csproj">
-      <Project>{64dfc410-b4c5-4893-a1b8-e8d3e319f81d}</Project>
+      <Project>{0c17ea1e-c301-4c0e-bf4e-b80a0a362d62}</Project>
       <Name>Dao</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{63932c21-ce40-4982-a3e6-812e88ecf042}</Project>
+      <Project>{d924ba45-a9c9-492f-b37f-b65fada6ea44}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,11 @@
+C:\Users\Maty\Desktop\TP08\Negocio\bin\Debug\Negocio.dll
+C:\Users\Maty\Desktop\TP08\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Maty\Desktop\TP08\Negocio\bin\Debug\Dao.dll
+C:\Users\Maty\Desktop\TP08\Negocio\bin\Debug\Entidades.dll
+C:\Users\Maty\Desktop\TP08\Negocio\bin\Debug\Dao.pdb
+C:\Users\Maty\Desktop\TP08\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.dll
+C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.pdb

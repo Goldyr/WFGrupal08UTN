@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64DFC410-B4C5-4893-A1B8-E8D3E319F81D}</ProjectGuid>
+    <ProjectGuid>{0C17EA1E-C301-4C0E-BF4E-B80A0A362D62}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Dao</RootNamespace>
@@ -33,8 +33,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,12 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conexion.cs" />
+    <Compile Include="AccesoDatos.cs" />
+    <Compile Include="DaoSucursal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{63932c21-ce40-4982-a3e6-812e88ecf042}</Project>
+      <Project>{d924ba45-a9c9-492f-b37f-b65fada6ea44}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>

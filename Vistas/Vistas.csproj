@@ -59,11 +59,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="AgregarSucursal.aspx" />
     <Content Include="EliminarSucursal.aspx" />
     <Content Include="ListarSucursal.aspx" />
@@ -103,11 +98,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{63932c21-ce40-4982-a3e6-812e88ecf042}</Project>
+      <Project>{d924ba45-a9c9-492f-b37f-b65fada6ea44}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
     <ProjectReference Include="..\Negocio\Negocio.csproj">
-      <Project>{a6ab4959-4bfa-4b28-8d9d-5f8e4d8e1367}</Project>
+      <Project>{df7f5600-645f-45ce-92d6-c940ce55eab1}</Project>
       <Name>Negocio</Name>
     </ProjectReference>
   </ItemGroup>
