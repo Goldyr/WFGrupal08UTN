@@ -1,0 +1,2 @@
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\obj\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
