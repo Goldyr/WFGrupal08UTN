@@ -27,7 +27,7 @@
             <div id="NomSuc">
                 <p>Nombre Sucursal:</p>
                 <asp:TextBox ID="txtbx_NombreSucursal" runat="server"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="rfv_Nombre" runat="server" ControlToValidate="txtbx_NombreSucursal" Visible="False">Ingresar nombre valido</asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="rfv_Nombre" runat="server" ControlToValidate="txtbx_NombreSucursal">Ingresar nombre valido</asp:RequiredFieldValidator>
             </div>
             <div id="DescSuc">
                 <p>Descripcion:</p>

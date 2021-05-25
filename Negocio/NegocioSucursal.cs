@@ -11,12 +11,5 @@ namespace Negocio
     public class NegocioSucursal
     {
 
-
-
-        if( !existe ){
-            
-            agrego
-        }
-
     }
 }

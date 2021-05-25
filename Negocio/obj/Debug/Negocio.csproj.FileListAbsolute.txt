@@ -9,3 +9,14 @@ C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.ca
 C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.dll
 C:\Users\Maty\Desktop\TP08\Negocio\obj\Debug\Negocio.pdb
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\obj\Debug\Negocio.dll
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\obj\Debug\Negocio.pdb
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\bin\Debug\Negocio.dll
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\bin\Debug\Negocio.pdb
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\bin\Debug\Dao.dll
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\bin\Debug\Entidades.dll
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\bin\Debug\Dao.pdb
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\bin\Debug\Entidades.pdb
+C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Negocio\obj\Debug\Negocio.csproj.CopyComplete

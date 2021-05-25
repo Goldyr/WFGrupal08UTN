@@ -5,23 +5,27 @@ using System.Text;
 using System.Threading.Tasks;
 using Entidades;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace Dao
 {
     public class DaoSucursal
     {
-        AccesoDatos datos = new AccesoDatos(); 
+        AccesoDatos datos = new AccesoDatos();
 
+        public Boolean ExisteSucursal() { return true; }
 
-    public int AgregarSucursal(string consulta)
+        public DataTable getTablaSucursal(string consulta)
         {
-
-            SqlCommand cmd = new SqlCommand(consulta, conexion);
-
-            int FilasAfectadas = cmd.ExecuteNonQuery();
-
-            //conexion.Close();
-            return FilasAfectadas;
+            DataTable dt = new DataTable();
+            return dt;
         }
+
+        public void AgregarSucursal(Sucursal _Sucursal) {; }
+        public void EliminarSucursal(Sucursal _Sucursal) {; }
+
+        private void ArmarParametrosAgregarSucursal(Sucursal _Sucursal) {; }
+        private void ArmarParametrosEliminarSucursal(Sucursal _Sucursal) {; }
+
     }
 }
