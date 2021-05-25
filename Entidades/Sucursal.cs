@@ -16,26 +16,26 @@ namespace Entidades
 
         public Sucursal(){}
 
-        void setId(int id)
-        {
+       public void setId(int id)
+       {
             this.Id = id;
-        }
-        void setDescripcion(string Descripcion)
-        {
+       }
+       public void setDescripcion(string Descripcion)
+       {
             this.Descripcion = Descripcion;
-        }
-        void setProvincia(string Provincia)
-        {
+       }
+       public void setProvincia(string Provincia)
+       {
             this.Provincia = Provincia;
-        }
-        void setDireccion(string Direccion)
-        {
+       }
+       public void setDireccion(string Direccion)
+       {
             this.Descripcion = Direccion;
-        }
-        string getDireccion() { return Direccion; }
-        string getNombre(){return Nombre;}
-        string getProvincia(){return Provincia;}
-        string getDescripcion() { return Descripcion;}
-        int getId() { return Id; }
+       }
+       public string getDireccion() { return Direccion; }
+       public string getNombre(){return Nombre;}
+       public string getProvincia(){return Provincia;}
+       public string getDescripcion() { return Descripcion;}
+       public int getId() { return Id; }
     }
 }
