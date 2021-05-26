@@ -20,6 +20,10 @@ namespace Entidades
        {
             this.Id = id;
        }
+        public void setNombre(string Nombre) 
+        {
+            this.Nombre = Nombre;
+        }
        public void setDescripcion(string Descripcion)
        {
             this.Descripcion = Descripcion;
