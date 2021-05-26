@@ -15,7 +15,7 @@ namespace Dao
 
         public Boolean ExisteSucursal(Sucursal _Sucursal) 
         {
-            string consulta = $"SELECT NombreSucursal FROM Sucursal WHERE NombreSucursal = {_Sucursal.getNombre()}";
+            string consulta = $"SELECT NombreSucursal FROM Sucursal WHERE NombreSucursal = '{_Sucursal.getNombre()}'";
             if (datos.verificarID(consulta) == true)
             {
                 return true;
@@ -74,7 +74,7 @@ namespace Dao
         private void ArmarParametrosEliminarSucursal(ref SqlCommand Comando,Sucursal _Sucursal) 
         {
             SqlParameter Parametros = new SqlParameter();
-            Parametros = Comando.Parameters.Add("@Id_Sucursal", SqlDbType.Int);
+            Parametros = Comando.Parameters.Add("@Id", SqlDbType.Int);
             Parametros.Value = _Sucursal.getId();
         }
 

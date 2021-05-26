@@ -26,3 +26,5 @@ C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Vistas\bin\Entidades.pdb
 C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Vistas\bin\Negocio.pdb
 C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Vistas\bin\Dao.pdb
 C:\Users\ser-a\Desktop\WFGrupal08UTN-master\Vistas\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Maty\Desktop\TP08\Vistas\bin\Dao.dll
+C:\Users\Maty\Desktop\TP08\Vistas\bin\Dao.pdb

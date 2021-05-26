@@ -11,7 +11,7 @@ namespace Entidades
         private int Id;
         private string Nombre;
         private string Descripcion;
-        private string Provincia;
+        private int Provincia;
         private string Direccion;
 
         public Sucursal(){}
@@ -28,17 +28,17 @@ namespace Entidades
        {
             this.Descripcion = Descripcion;
        }
-       public void setProvincia(string Provincia)
+       public void setProvincia(int Provincia)
        {
             this.Provincia = Provincia;
        }
        public void setDireccion(string Direccion)
        {
-            this.Descripcion = Direccion;
+            this.Direccion = Direccion;
        }
        public string getDireccion() { return Direccion; }
        public string getNombre(){return Nombre;}
-       public string getProvincia(){return Provincia;}
+       public int getProvincia(){return Provincia;}
        public string getDescripcion() { return Descripcion;}
        public int getId() { return Id; }
     }

@@ -67,14 +67,14 @@ namespace Dao
         }
         public bool verificarID(string consulta)
         {
-            bool existe = false;
+            bool existe = true;
             SqlConnection Conexion = ObtenerConexion();
-            //SqlCommand cmd = new SqlCommand(consulta, Conexion);
-            SqlDataAdapter adapter_V_local = ObtenerAdaptador(consulta,Conexion);
-            DataSet ds_V = new DataSet();
-            if (adapter_V_local.Fill(ds_V) != 0)
+            SqlCommand cmd = new SqlCommand(consulta, Conexion);
+            
+            if (cmd.ExecuteNonQuery()!=0)
             {
-                existe = true;
+                existe = false;
+                
             }
             Conexion.Close();
             return existe;
