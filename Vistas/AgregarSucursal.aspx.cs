@@ -20,14 +20,18 @@ namespace TP8_GRUPO7
             {
                 np.CargarDdl(ddl_ProvinciaSucursal);
             }
+            lblMensaje.Text = null;
         }
 
         protected void btn_Aceptar_Click(object sender, EventArgs e)
         {
-            if (ns.NS_AgregarSucursal(txtbx_NombreSucursal.Text, txtbx_DescripcionSucursal.Text, txtbx_DireccionSucursal.Text, Convert.ToInt32(ddl_ProvinciaSucursal.SelectedValue) ))
+            string Incorrecto = "Error al agregar.";
+            string Correcto = "Se agrego corectamente.";
+            lblMensaje.Text = ns.NS_AgregarSucursal(txtbx_NombreSucursal.Text.Trim(), txtbx_DescripcionSucursal.Text.Trim(), txtbx_DireccionSucursal.Text.Trim(), Convert.ToInt32(ddl_ProvinciaSucursal.SelectedValue)) == true ? Correcto : Incorrecto;
+      
+            if (lblMensaje.Text==Correcto)
             {
-                lblMensaje.Visible = true;
-                lblMensaje.Text = "estabien";
+                txtbx_DescripcionSucursal.Text = txtbx_NombreSucursal.Text = txtbx_DireccionSucursal.Text = "";
             }
         }
 

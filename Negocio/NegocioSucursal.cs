@@ -12,7 +12,7 @@ namespace Negocio
     {
         public bool NS_AgregarSucursal(string nombre, string Descripcion, string Direccion, int Id_provincia)
         {
-            bool Existe=false;
+            bool Agrego=false;
 
             Sucursal _Sucursal = new Sucursal();
             _Sucursal.setNombre(nombre);
@@ -22,10 +22,21 @@ namespace Negocio
             DaoSucursal dao = new DaoSucursal();
             if (!dao.ExisteSucursal(_Sucursal))
             {
-                Existe = dao.AgregarSucursal(_Sucursal);
+                Agrego = dao.AgregarSucursal(_Sucursal);
             }
 
-            return Existe;
+            return Agrego;
+        }
+        public bool NS_EliminarSucursal(int id)
+        {
+            
+            Sucursal _Sucursal = new Sucursal();
+            _Sucursal.setId(id);
+            DaoSucursal dao = new DaoSucursal();
+
+            bool filas = dao.EliminarSucursal(_Sucursal);
+
+            return filas;
         }
     }
 }

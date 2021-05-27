@@ -4,3 +4,9 @@ C:\Users\Maty\Desktop\TP08\Entidades\obj\Debug\Entidades.csprojAssemblyReference
 C:\Users\Maty\Desktop\TP08\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Maty\Desktop\TP08\Entidades\obj\Debug\Entidades.dll
 C:\Users\Maty\Desktop\TP08\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\bin\Debug\Entidades.dll
+C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\obj\Debug\Entidades.dll
+C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\obj\Debug\Entidades.pdb

@@ -65,21 +65,21 @@ namespace Dao
             Conexion.Close();
             return FilasCambiadas;
         }
-        public bool verificarID(string consulta)
+        
+        public Boolean verificarID(String consulta)
         {
-            bool existe = true;
+            Boolean estado = false;
             SqlConnection Conexion = ObtenerConexion();
             SqlCommand cmd = new SqlCommand(consulta, Conexion);
-            
-            if (cmd.ExecuteNonQuery()!=0)
+            SqlDataReader datos = cmd.ExecuteReader();
+            if (datos.Read())
             {
-                existe = false;
-                
+                estado = true;
+                System.Diagnostics.Debug.WriteLine("estadotrue");
             }
-            Conexion.Close();
-            return existe;
+            return estado;
         }
-
+ 
         public int obtenerMaximo (string consulta)
         {
             int MaxId = 0;

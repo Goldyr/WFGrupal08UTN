@@ -15,14 +15,14 @@ namespace Dao
 
         public Boolean ExisteSucursal(Sucursal _Sucursal) 
         {
-            string consulta = $"SELECT NombreSucursal FROM Sucursal WHERE NombreSucursal = '{_Sucursal.getNombre()}'";
-            if (datos.verificarID(consulta) == true)
-            {
-                return true;
-            }
+            string consulta;
+           
+            consulta = $"SELECT NombreSucursal FROM Sucursal WHERE NombreSucursal = '{_Sucursal.getNombre()}'";
 
-            return false; 
+            return datos.verificarID(consulta);
         }
+
+
 
         public DataTable getTablaSucursal(string consulta)
         {
@@ -30,8 +30,12 @@ namespace Dao
             return dt;
         }
 
+        /*
+            devuelve true si agrego una fila 
+            */
         public bool AgregarSucursal(Sucursal _Sucursal) 
         {
+         
             SqlCommand Comando = new SqlCommand();
             ArmarParametrosAgregarSucursal(ref Comando, _Sucursal);
             int filas = datos.EjecutarProcedimientoAlmacenado(Comando, "spAgregarSucursal");

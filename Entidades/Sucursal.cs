@@ -14,7 +14,9 @@ namespace Entidades
         private int Provincia;
         private string Direccion;
 
-        public Sucursal(){}
+        public Sucursal(){
+           
+        }
 
        public void setId(int id)
        {
