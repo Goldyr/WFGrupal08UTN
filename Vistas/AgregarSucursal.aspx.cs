@@ -25,8 +25,8 @@ namespace TP8_GRUPO7
 
         protected void btn_Aceptar_Click(object sender, EventArgs e)
         {
-            string Incorrecto = "Error al agregar.";
-            string Correcto = "Se agrego corectamente.";
+            string Incorrecto = "Error al agregar, el nombre ya existe.";
+            string Correcto = "La sucursal se ha agregado con éxito";
             lblMensaje.Text = ns.NS_AgregarSucursal(txtbx_NombreSucursal.Text.Trim(), txtbx_DescripcionSucursal.Text.Trim(), txtbx_DireccionSucursal.Text.Trim(), Convert.ToInt32(ddl_ProvinciaSucursal.SelectedValue)) == true ? Correcto : Incorrecto;
       
             if (lblMensaje.Text==Correcto)

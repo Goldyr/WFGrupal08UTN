@@ -43,3 +43,12 @@ C:\Users\Enzo\source\repos\TP8_GRUPO7\Dao\obj\Debug\Dao.csproj.CoreCompileInputs
 C:\Users\Enzo\source\repos\TP8_GRUPO7\Dao\obj\Debug\Dao.csproj.CopyComplete
 C:\Users\Enzo\source\repos\TP8_GRUPO7\Dao\obj\Debug\Dao.dll
 C:\Users\Enzo\source\repos\TP8_GRUPO7\Dao\obj\Debug\Dao.pdb
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\bin\Debug\Dao.dll
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\bin\Debug\Dao.pdb
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\bin\Debug\Entidades.dll
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\bin\Debug\Entidades.pdb
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\obj\Debug\Dao.csprojAssemblyReference.cache
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\obj\Debug\Dao.csproj.CopyComplete
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\obj\Debug\Dao.dll
+C:\Users\Maty\Source\Repos\WFGrupal08UTN\Dao\obj\Debug\Dao.pdb

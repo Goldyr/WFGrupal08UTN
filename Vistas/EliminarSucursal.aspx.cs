@@ -21,8 +21,8 @@ namespace TP8_GRUPO7
 		{
             lbl_eliminar.Text = null;
             lbl_eliminar.Visible=true;
-            string Incorrecto = "Error al eliminar";
-            string Correcto = "Se borro corectamente";
+            string Incorrecto = "Id de Sucursal Inexistente";
+            string Correcto = "La sucursal se ha eliminado con éxito”";
             lbl_eliminar.Text = ns_sucu.NS_EliminarSucursal(Convert.ToInt32(txtSucursal_eli.Text.Trim())) == true ? Correcto : Incorrecto;
             txtSucursal_eli.Text = "";
 		}

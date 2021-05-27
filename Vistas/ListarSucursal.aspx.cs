@@ -15,7 +15,11 @@ namespace TP8_GRUPO7
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                grdDatos.DataSource = ns_sucu.NS_ListarSucursal();
+                grdDatos.DataBind();
+            }
         }
 
 		protected void btnMostrar_Click(object sender, EventArgs e)
@@ -27,7 +31,7 @@ namespace TP8_GRUPO7
 		protected void btnFiltrar_Click(object sender, EventArgs e)
 		{
            int id = Convert.ToInt32(txtSucursal.Text.Trim());
-            string Incorrecto = "Error al listar";
+            string Incorrecto = "Id de Sucursal Inexistente";
             string Correcto = "Listado!";
             grdDatos.DataSource = ns_sucu.NS_ListarSucursal_ID(id);
             grdDatos.DataBind();
