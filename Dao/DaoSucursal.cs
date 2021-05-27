@@ -19,10 +19,8 @@ namespace Dao
            
             consulta = $"SELECT NombreSucursal FROM Sucursal WHERE NombreSucursal = '{_Sucursal.getNombre()}'";
 
-            return datos.verificarID(consulta);
+            return datos.verificarID(consulta); //si devuelve true existe y si devuelve false no existe
         }
-
-
 
         public DataTable getTablaSucursal(string consulta)
         {
@@ -41,7 +39,7 @@ namespace Dao
             int filas = datos.EjecutarProcedimientoAlmacenado(Comando, "spAgregarSucursal");
             if (filas == 1)
             {
-                return true;
+                return true;  //se agrego correctamente
             }
             else
             {
@@ -55,12 +53,28 @@ namespace Dao
             int filas = datos.EjecutarProcedimientoAlmacenado(Comando, "spEliminarSucursal");
             if(filas == 1)
             {
-                return true;
+                return true; //devuelve true si elimino una fila
             }
             else
             {
                 return false;
             }
+        }
+
+        public DataTable ListarSucursal_ID(Sucursal _Sucursal)
+        {
+            DataTable dt = new DataTable();
+            string consulta = $"SELECT Id_Sucursal, NombreSucursal, DescripcionSucursal AS 'Descripcion', P.DescripcionProvincia AS 'Provincia', DireccionSucursal AS 'Direccion' From Sucursal INNER JOIN Provincia AS P ON Id_ProvinciaSucursal = P.Id_Provincia WHERE Id_Sucursal = '{_Sucursal.getId()}' ";
+            dt = datos.ObtenerTabla("Sucursales", consulta);
+            return dt;
+        }
+
+        public DataTable ListarSucursal()
+        {
+            DataTable dt = new DataTable();
+            string consulta = $"SELECT Id_Sucursal, NombreSucursal, DescripcionSucursal AS 'Descripcion', P.DescripcionProvincia AS 'Provincia', DireccionSucursal AS 'Direccion' From Sucursal INNER JOIN Provincia AS P ON Id_ProvinciaSucursal = P.Id_Provincia";
+            dt = datos.ObtenerTabla("Todo", consulta);
+            return dt;
         }
 
         private void ArmarParametrosAgregarSucursal(ref SqlCommand Comando, Sucursal _Sucursal) 

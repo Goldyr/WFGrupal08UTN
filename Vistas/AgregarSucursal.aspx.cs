@@ -32,9 +32,8 @@ namespace TP8_GRUPO7
             if (lblMensaje.Text==Correcto)
             {
                 txtbx_DescripcionSucursal.Text = txtbx_NombreSucursal.Text = txtbx_DireccionSucursal.Text = "";
-            }
+            }       
         }
-
 
     }
 }

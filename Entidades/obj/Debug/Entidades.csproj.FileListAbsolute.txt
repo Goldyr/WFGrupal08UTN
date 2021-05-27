@@ -10,3 +10,9 @@ C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\obj\Debug\Entidades.csprojAs
 C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\obj\Debug\Entidades.dll
 C:\Users\Rivas\source\repos\WFGrupal08UTN\Entidades\obj\Debug\Entidades.pdb
+C:\Users\S\Desktop\TP 8\Entidades\bin\Debug\Entidades.dll
+C:\Users\S\Desktop\TP 8\Entidades\bin\Debug\Entidades.pdb
+C:\Users\S\Desktop\TP 8\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\S\Desktop\TP 8\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\S\Desktop\TP 8\Entidades\obj\Debug\Entidades.dll
+C:\Users\S\Desktop\TP 8\Entidades\obj\Debug\Entidades.pdb

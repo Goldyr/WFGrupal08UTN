@@ -30,7 +30,7 @@
             <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" OnClick="btnFiltrar_Click" ValidationGroup="busqueda1" />
 &nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnMostrar" runat="server" Text="Mostrar todos" OnClick="btnMostrar_Click" />
-            <asp:Label ID="lbl_inexistente" runat="server" Text="La sucursal no existe" Visible="False"></asp:Label>
+            &nbsp;<asp:Label ID="lbl_inexistente" runat="server"></asp:Label>
             <br />
             <br />
             <asp:GridView ID="grdDatos" runat="server">

@@ -32,6 +32,7 @@
             <span class="auto-style1"><strong>&nbsp;
             <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" OnClick="btnEliminar_Click" ValidationGroup="eliminar" />
             <br />
+            <br />
             <asp:Label ID="lbl_eliminar" runat="server"></asp:Label>
             </strong></span>
         </div>
