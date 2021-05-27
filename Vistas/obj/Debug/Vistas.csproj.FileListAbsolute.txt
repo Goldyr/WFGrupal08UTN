@@ -56,3 +56,15 @@ C:\Users\S\Desktop\TP 8\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
 C:\Users\S\Desktop\TP 8\Vistas\obj\Debug\Vistas.csproj.CopyComplete
 C:\Users\S\Desktop\TP 8\Vistas\obj\Debug\Vistas.dll
 C:\Users\S\Desktop\TP 8\Vistas\obj\Debug\Vistas.pdb
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Vistas.dll.config
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Vistas.dll
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Vistas.pdb
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Entidades.dll
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Negocio.dll
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Dao.dll
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Entidades.pdb
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Negocio.pdb
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\bin\Dao.pdb
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\obj\Debug\Vistas.csproj.CopyComplete
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\obj\Debug\Vistas.dll
+C:\Users\Enzo\source\repos\TP8_GRUPO7\Vistas\obj\Debug\Vistas.pdb

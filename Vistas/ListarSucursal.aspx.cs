@@ -27,8 +27,19 @@ namespace TP8_GRUPO7
 		protected void btnFiltrar_Click(object sender, EventArgs e)
 		{
            int id = Convert.ToInt32(txtSucursal.Text.Trim());
-           grdDatos.DataSource = ns_sucu.NS_ListarSucursal_ID(id);
-           grdDatos.DataBind();
+            string Incorrecto = "Error al listar";
+            string Correcto = "Listado!";
+            grdDatos.DataSource = ns_sucu.NS_ListarSucursal_ID(id);
+            grdDatos.DataBind();
+            if (grdDatos.DataSource == null)
+            {
+                lbl_inexistente.Text = Incorrecto;
+            }
+            else
+            {
+                lbl_inexistente.Text = Correcto;
+            }
+            
         }
 	}
 }

@@ -48,7 +48,11 @@ namespace Dao
             DataSet ds = new DataSet();
             SqlConnection Conexion = ObtenerConexion();
             SqlDataAdapter adp = ObtenerAdaptador(Consulta, Conexion);
-            adp.Fill(ds, NombreTabla);
+            if(adp.Fill(ds, NombreTabla)==0)
+            {
+                Conexion.Close();
+                return null;
+            }
             Conexion.Close();
             return ds.Tables[NombreTabla];
         }

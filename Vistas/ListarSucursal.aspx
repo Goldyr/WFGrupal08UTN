@@ -31,6 +31,7 @@
 &nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnMostrar" runat="server" Text="Mostrar todos" OnClick="btnMostrar_Click" />
             &nbsp;<asp:Label ID="lbl_inexistente" runat="server"></asp:Label>
+            <asp:RequiredFieldValidator ID="rfv_ID" runat="server" ControlToValidate="txtSucursal" ValidationGroup="busqueda1">Ingresar un ID de alguna sucursal</asp:RequiredFieldValidator>
             <br />
             <br />
             <asp:GridView ID="grdDatos" runat="server">

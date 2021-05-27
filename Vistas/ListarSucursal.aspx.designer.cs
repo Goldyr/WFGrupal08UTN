@@ -87,6 +87,15 @@ namespace TP8_GRUPO7
         protected global::System.Web.UI.WebControls.Label lbl_inexistente;
 
         /// <summary>
+        /// Control rfv_ID.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv_ID;
+
+        /// <summary>
         /// Control grdDatos.
         /// </summary>
         /// <remarks>

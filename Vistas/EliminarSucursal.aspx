@@ -31,6 +31,7 @@
             <asp:TextBox ID="txtSucursal_eli" runat="server" TextMode="Number" ValidationGroup="eliminar"></asp:TextBox>
             <span class="auto-style1"><strong>&nbsp;
             <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" OnClick="btnEliminar_Click" ValidationGroup="eliminar" />
+            <asp:RequiredFieldValidator ID="rfv_Elim" runat="server" ControlToValidate="txtSucursal_eli" ValidationGroup="eliminar">Ingresar un ID para eliminar</asp:RequiredFieldValidator>
             <br />
             <br />
             <asp:Label ID="lbl_eliminar" runat="server"></asp:Label>
